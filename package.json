@@ -1,0 +1,18 @@
+{
+  "name": "re-utils",
+  "version": "1.0.0",
+  "description": "Shared utilities used in frontend-platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Andrii Lukianenko",
+    "email": "andrii.lukianenko@olx.com"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/andrii-lukianenko/re-utils"
+  },
+  "license": "MIT"
+}
