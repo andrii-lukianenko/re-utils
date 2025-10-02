@@ -1,0 +1,1 @@
+export const checkIsArrayValue = <T>(array: T[], value: unknown): value is T => array.includes(value as T);
