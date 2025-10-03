@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "lib/types",
-    "target": "es6",
+    "target": "es2016",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
