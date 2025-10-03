@@ -10,9 +10,12 @@
     "name": "Andrii Lukianenko",
     "email": "andrii.lukianenko@olx.com"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/andrii-lukianenko/re-utils"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
