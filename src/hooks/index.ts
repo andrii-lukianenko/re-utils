@@ -1,1 +1,1 @@
- export { useClickOutside } from './useClickOutside/useClickOutside';
+export { useClickOutside } from './useClickOutside/useClickOutside';
