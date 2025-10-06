@@ -1,5 +1,5 @@
 {
-  "name": "re-utils",
+  "name": "@andrii_lukianenko/re-utils",
   "version": "1.0.0",
   "description": "Shared utilities used in frontend-platform",
   "type": "module",
