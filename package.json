@@ -3,15 +3,26 @@
   "version": "1.0.0",
   "description": "Shared utilities used in frontend-platform",
   "type": "module",
-  "main": "lib/index.cjs",
   "exports": {
-    "import": {
-      "types": "./lib/types/index.d.ts",
-      "default": "./lib/index.esm.js"
+    "./helpers": {
+      "import": {
+        "types": "./lib/types/helpers/index.d.ts",
+        "default": "./lib/helpers.js"
+      },
+      "require": {
+        "types": "./lib/types/helpers/index.d.ts",
+        "default": "./lib/helpers.cjs"
+      }
     },
-    "require": {
-      "types": "./lib/types/index.d.ts",
-      "default": "./lib/index.cjs"
+    "./hooks": {
+      "import": {
+        "types": "./lib/types/hooks/index.d.ts",
+        "default": "./lib/hooks.js"
+      },
+      "require": {
+        "types": "./lib/types/hooks/index.d.ts",
+        "default": "./lib/hooks.cjs"
+      }
     }
   },
   "files": [
@@ -29,7 +40,17 @@
     "url": "git+https://github.com/andrii-lukianenko/re-utils.git"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    }
+  },
   "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
     "rollup": "^4.52.4",
     "rollup-plugin-delete": "^3.0.1",
     "rollup-plugin-typescript2": "^0.36.0",

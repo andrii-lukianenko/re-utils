@@ -3,9 +3,11 @@
     "declaration": true,
     "declarationDir": "lib/types",
     "target": "es2016",
+    "lib": ["dom", "dom.iterable", "es2016"],
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "lib"]
