@@ -1,6 +1,6 @@
 {
   "name": "@andrii_lukianenko/re-utils",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "description": "Shared utilities used in frontend-platform",
   "type": "module",
   "exports": {
