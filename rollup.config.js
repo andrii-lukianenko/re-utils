@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2';
+import typescript from '@rollup/plugin-typescript';
 import del from 'rollup-plugin-delete'
 
 // External dependencies that should not be bundled
@@ -18,7 +18,9 @@ export default [
     }],
     plugins: [
       del({ targets: 'lib/*' }),
-      typescript({ tsconfig: './tsconfig.json', useTsconfigDeclarationDir: true }),
+      typescript({
+        tsconfig: './tsconfig.json'
+      }),
     ]
   },
   // Hooks subpath
@@ -33,7 +35,9 @@ export default [
       format: 'esm',
     }],
     plugins: [
-      typescript({ tsconfig: './tsconfig.json', useTsconfigDeclarationDir: true }),
+      typescript({
+        tsconfig: './tsconfig.json'
+      }),
     ]
   }
 ]
