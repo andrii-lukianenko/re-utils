@@ -1,1 +1,1 @@
-export { checkIsArrayValue } from './helpers/checkIsArrayValue';
+export { checkIsArrayValue } from './helpers/checkIsArrayValue/checkIsArrayValue';
