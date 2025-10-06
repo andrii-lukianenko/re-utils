@@ -2,8 +2,18 @@
   "name": "re-utils",
   "version": "1.0.0",
   "description": "Shared utilities used in frontend-platform",
-  "main": "index.js",
   "type": "module",
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.esm.js"
+    },
+    "require": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.cjs"
+    }
+  },
   "scripts": {
     "build": "rollup -c"
   },
